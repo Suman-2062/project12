@@ -1,0 +1,412 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    text-decoration: none;
+    color: black;
+    overflow-x: hidden;
+    /* background-color: beige; */
+}
+
+
+.cont {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+
+}
+
+.navbar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 25px;
+    height: 20px;
+    width: 600px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    overflow: hidden;
+    /* font-size: -20;
+font-weight:400; */
+}
+
+a {
+    font-size: small;
+}
+
+a:hover {
+    color: blue;
+    transition: 1s;
+}
+
+#j {
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-top: 20px;
+    position: fixed;
+    width: 10%;
+    top: 0;
+    padding-top: 65px;
+    padding: 20px;
+    margin-left: -250px;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee", "ZAWGYI-ONE";
+}
+
+#ok {
+    border: 2px white;
+}
+
+#ok:hover {
+    color: blue;
+}
+
+.logo {
+    margin-left: 950px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding-top: 40px;
+}
+
+.a1 {
+    font-size: xxx-large;
+    margin-left: 95px;
+    margin-top: 90px;
+    font-weight: bolder;
+}
+
+.a2 {
+    font-size: small;
+    margin-left: 245px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
+
+.a3 {
+    font-size: x-large;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.a4 {
+    font-size: large;
+    margin-left: 95px;
+    /* font-weight: bolder; */
+    margin-top: 40px;
+}
+
+.part2 {
+    display: flex;
+}
+
+.right {
+    /* margin-left: 200px; */
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    z-index: -1;
+}
+
+.right img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: right;
+}
+
+.part2 {
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    background-size: cover;
+    /* background-image: url(./1.jpg); */
+    background-position: right;
+}
+
+.part3:hover {
+    scale: 1.05;
+    transition: 2s;
+    overflow: hidden;
+}
+
+.part3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.part4 {
+    padding-top: 20px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    padding-left: 50px;
+}
+
+.part4 img:hover {
+    scale: 1.03;
+    transition: 1.5s;
+    overflow: hidden;
+}
+
+.ok {
+    padding-right: 300px;
+
+    font-size: x-large;
+    margin-left: 95px;
+    margin-top: 10px;
+
+}
+
+.o {
+    font-size: xxx-large;
+    margin-left: 95px;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    /* font-weight: bolder; */
+}
+
+.r1 {
+    height: 250px;
+    width: 350px;
+    background-image: url(./ok1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    margin-top: -350px;
+}
+.r1:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+
+.r3:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+.r4:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+
+.r5:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+
+.r2:hover{
+    scale: 1.1;
+    transition: 2s;
+}
+
+
+.r1 p {
+    margin-top: 150px;
+    color: white;
+
+}
+
+.r2 {
+
+    height: 600px;
+    width: 350px;
+    background-image: url(./ok2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+
+}
+
+.hus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.r3 {
+
+    height: 330px;
+    width: 350px;
+    background-image: url(./ok3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    margin-top: -250px;
+}
+
+.r4 {
+
+    height: 330px;
+    width: 350px;
+    background-image: url(./ok4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 70px;
+
+    margin-bottom: 50px;
+    border-radius: 50px;
+    margin-top: -330px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+.r5 {
+
+    height: 350px;
+    width: 350px;
+    background-image: url(./ok5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 820px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    margin-top: -300px;
+    box-shadow: 2px 2px 10px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+ul a {
+    text-decoration: none;
+    color: grey;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+ul a:hover {
+    color: blue;
+    transition: 1.2s;
+}
+
+.l {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    height: fit-content;
+    width: 65%;
+    justify-content: space-evenly;
+}
+
+ul p {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+.foot-panel2 {
+    display: flex;
+    background-color: #222f3d;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons p {
+    color: grey;
+    margin-top: -170px;
+    margin-left: 70px;
+}
+
+.ic2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ic2 p {
+    color: grey;
+    margin-left: -20px;
+margin-top: 30px;
+}
+
+
+.vayo {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.last1 {
+    margin-left: 20px;
+    font-size: xx-large;
+    color: blue;
+}
+
+.last {
+    margin-left: 20px;
+    font-size: xx-large;
+    color: red;
+}
+
+.l3 {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-size: xx-large;
+    color: red;
+}
